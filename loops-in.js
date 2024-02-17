@@ -35,9 +35,9 @@ function highlightLinks(){
  //Display Information
 
  const dummyUserData = {
-    firstName: 'Rabia',
+    firstName : 'Rabia',
     lastName: 'Rajput',
-    age: 24
+    age : 24,
 
  };
 
