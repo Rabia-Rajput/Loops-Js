@@ -15,3 +15,18 @@
  }
 
  calculateSumButton.addEventListener('click', calculateSum);
+
+ //HightLight Links
+
+ const hightlightLinksButton = document.querySelector('#highlight-links button');
+
+function highlightLinks(){
+    const anchorElements = document.querySelectorAll('#highlight-links a');
+    for (const anchorElement of anchorElements){
+        anchorElement.classList.add('highlight');
+    }
+
+}
+
+
+ hightlightLinksButton.addEventListener('click',  highlightLinks );
