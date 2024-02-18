@@ -86,9 +86,9 @@ function displayuserDataButton(){
         const outputText = 'Roll ' + numberOfRolls + ': ' + rolledNumber;
         newRollListItem.textContent =  outputText;
         diceRollsListElement.append(newRollListItem);
-        // if (rolledNumber == enteredNumber){
-        //     hasRolledTargetNumber = true;
-        // }
+        if (rolledNumber == enteredNumber){
+            hasRolledTargetNumber = true;
+         }
        hasRolledTargetNumber = rolledNumber == enteredNumber;
     }
     const outputTotalRolls = document.getElementById('output-total-rolls');
