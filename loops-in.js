@@ -44,6 +44,7 @@ function highlightLinks(){
  const displayButton = document.querySelector('#user-data button');
 function displayuserDataButton(){
     const outputDataElement = document.getElementById('output-user-data');
+    outputDataElement.innerHTML = ''; // it will display data one time
     for (const key in dummyUserData){
         const newUserDataListItem = document.createElement('li');
         const outputText = key.toUpperCase() + ' : ' + dummyUserData[key];
